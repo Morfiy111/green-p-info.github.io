@@ -16,8 +16,8 @@ a {
 }
 
 a:hover {
-    border-bottom: 1px solid #a40201;
-    color: #a40201;
+    border-bottom: 1px solid #91D13E;
+    color: #91D13E;
 }
 
 a,
@@ -86,6 +86,56 @@ button.btn-close {
     position: relative;
 }
 
+.header-logo {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.header-row-top-social {
+    text-align: right;
+}
+
+.header-row-top-social a {
+    color: #fff;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.header-block-btns .page-btn {
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.header-block-btns .page-btn:hover {
+    background-color: #fff;
+    color: #5c7284;
+}
+
+.page-btn {
+    background-color: transparent;
+    color: #3f4049;
+    border: 2px solid #3f4049;
+    padding: 8px 22px;
+    font-size: 20px;
+    text-align: center;
+    line-height: initial;
+}
+
+.header-phones a {
+    color: #fff;
+    font-size: 20px;
+    font-size: 22px;
+    margin-right: 20px;
+
+}
+
+.header-line-top {
+    padding-top: 15px;
+}
 
 @keyframes bounceIn {
     0% {
