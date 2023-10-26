@@ -137,6 +137,11 @@ button.btn-close {
     padding-top: 15px;
 }
 
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
 @keyframes bounceIn {
     0% {
         opacity: 0;
