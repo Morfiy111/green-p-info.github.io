@@ -262,6 +262,8 @@ button.btn-close {
 
 .main-catalog-title {
     margin: 15px 0;
+    margin-bottom: 20px;
+    height: 54px;
 }
 
 .main-catalog-title a {
