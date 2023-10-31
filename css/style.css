@@ -345,6 +345,10 @@ button.btn-close {
     width: 40%;
 }
 
+.navbar-nav {
+    font-size: 18px;
+}
+
 @keyframes bounceIn {
     0% {
         opacity: 0;
