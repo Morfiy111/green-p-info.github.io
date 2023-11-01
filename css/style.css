@@ -378,7 +378,15 @@ button.btn-close {
     }
 }
 
-@media(max-width:1199px) {}
+@media(max-width:1199px) {
+    .main-catalog-title {
+        height: 75px;
+    }
+
+    .main-catalog-title a {
+        font-size: 16px;
+    }
+}
 
 @media(max-width: 991px) {
     .header-phones a {
@@ -388,6 +396,26 @@ button.btn-close {
     .navbar-expand-md {
         flex-wrap: wrap;
         justify-content: end;
+    }
+
+    .header-contacts-row {
+        flex-wrap: wrap;
+    }
+
+    .header-logo img {
+        width: 150px;
+    }
+
+    .header-logo {
+        margin-bottom: 20px;
+    }
+
+    .main-catalog-item {
+        width: 48%;
+    }
+
+    .main-catalog-title {
+        height: 50px;
     }
 }
 
@@ -438,6 +466,20 @@ button.btn-close {
     .header-line-top {
         flex-wrap: wrap;
     }
+
+    .main-page-contacts {
+        flex-wrap: wrap;
+
+    }
+
+    .map-block,
+    .contact-block {
+        width: 100%;
+    }
+
+    .map-block {
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -455,5 +497,18 @@ button.btn-close {
 
     .dropdown-item {
         white-space: inherit;
+    }
+
+    .main-catalog-item {
+        width: 100%;
+    }
+
+    .header-phones a {
+        white-space: nowrap;
+    }
+
+    .main-catalog-title {
+        height: auto;
+        margin-bottom: 30px;
     }
 }
