@@ -349,6 +349,26 @@ button.btn-close {
     font-size: 18px;
 }
 
+.services-block {
+    margin: 20px 0 50px 0;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-item a {
+    color: #5c7284;
+}
+
+.service-item i {
+    color: #91D13E;
+    margin-right: 20px;
+}
+
 @keyframes bounceIn {
     0% {
         opacity: 0;
