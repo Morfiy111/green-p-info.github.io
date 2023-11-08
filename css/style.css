@@ -369,6 +369,10 @@ button.btn-close {
     margin-right: 20px;
 }
 
+.breadcrumb-item.active {
+    color: #5c7284;
+}
+
 @keyframes bounceIn {
     0% {
         opacity: 0;
