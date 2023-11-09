@@ -373,6 +373,28 @@ button.btn-close {
     color: #5c7284;
 }
 
+.good-description-block {
+    padding: 20px;
+    color: #fff;
+    background-color: #5c7284;
+    margin-bottom: 40px;
+}
+
+.card-images-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.card-image-item {
+    width: 48%;
+}
+
+.card-image-item img {
+    width: 100%;
+}
+
 @keyframes bounceIn {
     0% {
         opacity: 0;
@@ -511,6 +533,11 @@ button.btn-close {
     .header-logo img {
         width: 120px;
     }
+
+    .card-image-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -534,5 +561,9 @@ button.btn-close {
     .main-catalog-title {
         height: auto;
         margin-bottom: 30px;
+    }
+
+    .table-striped {
+        font-size: 14px;
     }
 }
